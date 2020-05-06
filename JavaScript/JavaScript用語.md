@@ -1,9 +1,8 @@
+## MDN Web Docs / JavaScript (https://developer.mozilla.org/ja/docs/Web/JavaScript)
+
 ### super
 - https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/super
 コンストラクタを継承するために必要。コンストラクタのブロックのひとつ内側に設ける。
-
-### ReactDOM
-- https://ja.reactjs.org/docs/react-dom.html
 
 ### Document.getElementById()
 - https://developer.mozilla.org/ja/docs/Web/API/Document/getElementById
