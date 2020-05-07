@@ -1,5 +1,7 @@
 ## MDN Web Docs / JavaScript (https://developer.mozilla.org/ja/docs/Web/JavaScript)
 
+### [メソッドの定義](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Creating_New_Objects/Defining_Methods)
+
 ### [super](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/super)
 コンストラクタを継承するために必要。コンストラクタのブロックのひとつ内側に設ける。
 
