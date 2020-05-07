@@ -1,4 +1,5 @@
 ## 公式ガイド(https://ja.reactjs.org/)
+## 現代の JavaScript チュートリアル(https://ja.javascript.info/)
 
 ### [ReactDOM](https://ja.reactjs.org/docs/react-dom.html)
   - DOM の紹介(https://developer.mozilla.org/ja/docs/Web/API/Document_Object_Model/Introduction)
@@ -15,3 +16,5 @@
   - Global object (グローバルオブジェクト)
   - https://developer.mozilla.org/ja/docs/Glossary/Global_object
   - グローバルスコープ上に常に存在するオブジェクト
+
+### [export default](https://ja.javascript.info/import-export#ref-535)
