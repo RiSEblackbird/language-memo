@@ -18,3 +18,4 @@
   - グローバルスコープ上に常に存在するオブジェクト
 
 ### [export default](https://ja.javascript.info/import-export#ref-535)
+インポート先で波括弧なしに呼び出せるようになる
