@@ -12,3 +12,10 @@
 
 ### コンポーネントと props
 - https://ja.reactjs.org/docs/components-and-props.html
+
+### this
+- https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/this
+- 呼び出しの条件によって意味が変わる
+  - Global object (グローバルオブジェクト)
+  - https://developer.mozilla.org/ja/docs/Glossary/Global_object
+  - グローバルスコープ上に常に存在するオブジェクト
