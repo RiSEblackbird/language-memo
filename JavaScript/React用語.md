@@ -13,12 +13,15 @@
 ### [コンポーネントと props](https://ja.reactjs.org/docs/components-and-props.html)
 
 ### [this](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/this)
-呼び出しの条件によって意味が変わる
+呼び出しの条件によって意味が変わる。呼び出し元に注意して扱う。
   - Global object (グローバルオブジェクト)
   - https://developer.mozilla.org/ja/docs/Glossary/Global_object
   - グローバルスコープ上に常に存在するオブジェクト
+- [JavaScriptの「this」は「4種類」？？ | Qiita](https://qiita.com/takeharu/items/9935ce476a17d6258e27)
 
 ### [export default](https://ja.javascript.info/import-export#ref-535)
-インポート先で波括弧なしに呼び出せるようになる
+インポート先で波括弧なしに呼び出せるようになる。
 
-### [extends]()
+### [extends](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Classes/extends)
+子クラスの定義  
+ex. ```class Small extends Big {}``` だと、'Small'を'Big'の子クラスとして作成する。
