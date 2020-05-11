@@ -1,5 +1,5 @@
 ### [gem 'rack-cors'](https://github.com/cyu/rack-cors)
-- gem製作者様の使用法解説:[rack-corsでCORS設定をする | Hatena](https://techblog.lclco.com/entry/2018/09/30/200122)
+- [rack-corsでCORS設定をする | Hatena](https://techblog.lclco.com/entry/2018/09/30/200122) :: gem製作者様の使用法解説
 - [Ruby on Rails+ReactでCRUDを実装してみた | Qiita](https://qiita.com/yoshimo123/items/9aa8dae1d40d523d7e5d)
   - 上記記事の閲覧次に遭遇。
 - [これだけでイイ、Rails5でAPIサーバを作るときのCORS設定 | Qiita](https://qiita.com/IzumiSy/items/c10949e9a00d1c61613c)
