@@ -1,0 +1,13 @@
+### [gem 'rack-cors'](https://github.com/cyu/rack-cors)
+- [Ruby on Rails+ReactでCRUDを実装してみた | Qiita](https://qiita.com/yoshimo123/items/9aa8dae1d40d523d7e5d)
+  上記記事の閲覧次に遭遇。
+  - [これだけでイイ、Rails5でAPIサーバを作るときのCORS設定 | Qiita](https://qiita.com/IzumiSy/items/c10949e9a00d1c61613c)
+  - gem製作者様の使用法解説:[rack-corsでCORS設定をする | Hatena](https://techblog.lclco.com/entry/2018/09/30/200122)
+    アクセスを許可するドメインを制限したい場合に便利っぽい？？？
+  - [オリジン間リソース共有 (CORS) | MDN](https://developer.mozilla.org/ja/docs/Web/HTTP/CORS)
+    - [Origin (オリジン) | MDN](https://developer.mozilla.org/ja/docs/Glossary/Origin)
+      プロトコル、ホスト、ポートによって定義され、それらが全て一致する場合のみ同一のオリジンであると言うことができる。同じオリジンのコンテンツに操作を限定する場合も、CORSを使用する事でオリジン間でのHTTPリクエストを実行することができる？？？  
+      つまり、Railsでは、ページでの操作でJsonを生成してバックエンドと通信してページを更新するような動作がオリジン間でのHTTPリクエストの成立に当たるのだろうか？？？
+  - [JSONPは危険なので禁止 | yohgaki's blog ](https://blog.ohgaki.net/stop-using-jsonp)
+    gemの説明でJSNOPを使用しないことが述べられているが、JSNOPはセキュリティ上使用しない方が良いと言う趣旨の記事が複数目立つ。
+      - [クロスサイトスクリプティング（XSS）のセキュリティ対策とは？](https://www.shadan-kun.com/blog/measure/1052/)
