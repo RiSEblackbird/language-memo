@@ -2,6 +2,8 @@
 ## 現代の JavaScript チュートリアル(https://ja.javascript.info/)
 ## MDN Web Docs / JavaScript (https://developer.mozilla.org/ja/docs/Web/JavaScript)
 
+### [JSXの導入](https://ja.reactjs.org/docs/introducing-jsx.html)
+
 ### [ReactDOM](https://ja.reactjs.org/docs/react-dom.html)
   - DOM の紹介(https://developer.mozilla.org/ja/docs/Web/API/Document_Object_Model/Introduction)
     - 主要なAPIが列挙されている。
