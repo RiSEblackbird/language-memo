@@ -28,7 +28,7 @@
 子クラスの定義  
 ex. ```class Small extends Big {}``` だと、'Small'を'Big'の子クラスとして作成する。
 
-### [.findIndex()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+### [Array.prototype.findIndex() | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
 ~~~js
 deleateProduct = (id) => {
     axios.delete(`http://localhost:3001/products/${id}`)
