@@ -27,3 +27,19 @@
 ### [extends](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Classes/extends)
 子クラスの定義  
 ex. ```class Small extends Big {}``` だと、'Small'を'Big'の子クラスとして作成する。
+
+### [.findIndex()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+~~~js
+deleateProduct = (id) => {
+    axios.delete(`http://localhost:3001/products/${id}`)
+    .then((response) => {
+      const productIndex = this.state.products.findIndex(x => x.id === id)
+      const deletedProducts = update(this.state.products, {$splice: [[productIndex, 1]]})
+      this.setState({products: deletedProducts})
+      console.log('set')
+    })
+    .catch((data) =>{
+      console.log(data)
+    })
+  }
+~~~
