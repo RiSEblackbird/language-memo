@@ -63,3 +63,5 @@ Top
 3. ``git push --force-with-lease origin [ 作業中のリモートブランチ名 ]``
 
 ## 作業ブランチにリモートオリジンの変更をマージする
+
+``$ git pull origin develop`` など (fetch & merge)
